@@ -8,6 +8,7 @@ I made this very simple todo list as a simple side project
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#Links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
