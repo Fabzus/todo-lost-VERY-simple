@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #352f5b;
+}
+
+.container {
+  max-width: 400px;
+}
+
+.form-control {
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.todos li {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #423a6f;
+}
+
+.delete {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.delete:hover {
+  color: rgba(206, 83, 83, 0.752);
+}
+
+.filtred {
+  display: none !important;
+}
+
+.list-group span {
+  margin-right: 5px;
+}
